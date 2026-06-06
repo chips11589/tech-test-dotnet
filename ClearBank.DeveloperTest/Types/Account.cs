@@ -1,4 +1,6 @@
-﻿namespace ClearBank.DeveloperTest.Types
+﻿using ClearBank.DeveloperTest.Enums;
+
+namespace ClearBank.DeveloperTest.Types
 {
     public class Account
     {

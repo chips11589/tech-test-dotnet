@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClearBank.DeveloperTest.Enums;
+using System;
 
 namespace ClearBank.DeveloperTest.Types
 {
