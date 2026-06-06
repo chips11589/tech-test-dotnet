@@ -10,7 +10,7 @@
 - Fixed a potential logical flaw in the old `PaymentService` code, i.e. when `request.PaymentScheme` has a value not in the switch-cases, and the `account` is `null` -> the code would just crash
 - Added unit tests
 
-### TODO Changes if having more time or better understanding of the wider context
+### Further Changes if having more time or better understanding of the wider context
 - Consider using `IOptions` for strongly-typed configuration classes. Reason for postponing: unclear about the impact on the consumers of the `PaymentService` class, e.g. `IOptions` doesn't offer direct support for the legacy structure of `App.Config` or `Web.Config` XML, while `ConfigurationManager` does.
 
 ### Key Point
